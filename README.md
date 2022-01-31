@@ -1,2 +1,2 @@
 # e-commerce-app
-Ecommerce app using Django, Rest API and ElasticSearch
+Ecommerce app using Django, Rest API, Docker and ElasticSearch
