@@ -1,0 +1,46 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$TmVOesDAC8unpGApQu5YpA$raVoRZxxAb0clOnsd/WOF+ZR1XN8UGDMvYtCUqO/L2U=",
+        "last_login": "2022-01-31T19:58:07.464Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "nhattai.nguyen88@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-01-31T19:47:08.193Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "g2gchcaapcx453wpgoccb98yiorvumip",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyG0LEU8evcbyLLsStXQpLQn47_bJj3ocea9mbeKuC4lro3nOGZ1UZ06_XYJ6cl1B_mB9T5pmuoyj0nvij5o07cp8-t6uH8HBVvZ1imwcYCItk-GnWHPLGfwg8iWLNvckwWB7EECdULZDYSSjPFgQwL1-QIGKzi9:1nEcq0:kRysrDqqpX0NHxxQba7_MoDwt5IGNXMHKNXdFMbnvm8",
+        "expire_date": "2022-02-14T19:59:44.850Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-01-31T19:59:44.610Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "admin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+}
+]

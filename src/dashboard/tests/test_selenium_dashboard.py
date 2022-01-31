@@ -5,14 +5,8 @@ from selenium.webdriver.common.by import By
 
 
 @pytest.mark.selenium
-def test_create_new_admin_user(create_admin_user):
-    """Test new admin should be created."""
-    assert str(create_admin_user) == "admin"
-
-
-@pytest.mark.selenium
 def test_dashboard_admin_login(
-    live_server, create_admin_user, chrome_browser_instance
+    live_server, custom_django_db_setup, chrome_browser_instance
 ):
     """Test admin should login successfully."""
     # https://pytest-django.readthedocs.io/en/latest/helpers.html#live-server
@@ -23,7 +17,7 @@ def test_dashboard_admin_login(
     submit_button = browser.find_element(By.XPATH, '//input[@value="Log in"]')
 
     username_input.send_keys("admin")
-    password_input.send_keys("qwerty")
+    password_input.send_keys("qwerty88$%$%$%")
     submit_button.send_keys(Keys.RETURN)
 
     assert "Site administration" in browser.page_source
