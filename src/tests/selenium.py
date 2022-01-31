@@ -1,10 +1,9 @@
 import pytest
+from chromedriver_py import binary_path
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-
-from chromedriver_py import binary_path
 
 
 @pytest.fixture(scope="function")

@@ -6,6 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+black = "22.1.0"
 chromedriver-py = "==97.0.4692.71"
 django = "4.0.1"
 django-environ = "0.8.1"
