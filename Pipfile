@@ -6,14 +6,16 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+chromedriver-py = "97.0.4692.71"
 django = "4.0.1"
+django-environ = "0.8.1"
+pipfile-sort = "0.2.2"
+pre-commit = "2.17.0"
 pytest = "6.2.5"
 pytest-django = "4.5.2"
-pytest-sugar = "0.9.4"
 pytest-factoryboy = "2.1.0"
 pytest-selenium = "2.0.1"
-django-environ = "0.8.1"
-pre-commit = "2.17.0"
+pytest-sugar = "0.9.4"
 
 [requires]
 python_version = "3.8"
