@@ -8,7 +8,14 @@ black==22.1.0
 chromedriver-py==97.0.4692.71
 django-environ==0.8.1
 django-extensions==3.1.5
-  Django==4.0.1
+  Django==4.0.2
+    asgiref==3.5.0
+    backports.zoneinfo==0.2.1
+    sqlparse==0.4.2
+django-mptt==0.13.4
+  django-js-asset==1.2.2
+django-treebeard==4.5.1
+  Django==4.0.2
     asgiref==3.5.0
     backports.zoneinfo==0.2.1
     sqlparse==0.4.2
@@ -18,10 +25,10 @@ pipfile-sort==0.2.2
   click==8.0.3
   plette==0.2.3
     six==1.16.0
-    tomlkit==0.8.0
+    tomlkit==0.9.0
 pre-commit==2.17.0
   cfgv==3.3.1
-  identify==2.4.6
+  identify==2.4.7
   nodeenv==1.6.0
   PyYAML==6.0
   toml==0.10.2
@@ -45,10 +52,9 @@ pytest-django==4.5.2
     toml==0.10.2
 pytest-factoryboy==2.1.0
   factory-boy==3.2.1
-    Faker==11.4.0
+    Faker==12.0.0
       python-dateutil==2.8.2
         six==1.16.0
-      text-unidecode==1.3
   inflection==0.5.1
   pytest==6.2.5
     attrs==21.4.0
@@ -150,5 +156,6 @@ pytest-sugar==0.9.4
     toml==0.10.2
   termcolor==1.1.0
 setuptools==59.3.0
+text-unidecode==1.3
 Werkzeug==2.0.2
 wheel==0.37.0

@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # Local applications
     "src.dashboard",
+    "src.inventory",
+    "mptt",
 ]
 
 MIDDLEWARE = [
